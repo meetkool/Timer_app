@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --add-data "icon.ico;." --add-data "links.txt:."  --icon=icon.ico timer.py
