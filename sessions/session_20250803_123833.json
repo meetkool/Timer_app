@@ -1,0 +1,195 @@
+{
+  "session_id": "20250803_123833",
+  "total_problems": 12,
+  "problems_solved": 4,
+  "stopwatch_time": 60,
+  "logs": [
+    [
+      "00:00 ; 12:39:25",
+      "Started"
+    ],
+    [
+      "03:34 ; 12:43:06",
+      "Problem 1 - started self doing"
+    ],
+    [
+      "03:37 ; 12:43:10",
+      "Problem 1 - started seeing solution (Self work: 00:03)"
+    ],
+    [
+      "03:38 ; 12:43:11",
+      "Problem 1 - started making note (Solution time: 00:01)"
+    ],
+    [
+      "03:40 ; 12:43:13",
+      "Problem 1 completed (Self Doing: 00:03, Seeing Solution: 00:01, Making Note: 00:02, Total: 00:06)"
+    ],
+    [
+      "00:01 ; 12:43:14",
+      "Problem 2 - started self doing"
+    ],
+    [
+      "00:02 ; 12:43:15",
+      "Problem 2 - started seeing solution (Self work: 00:01)"
+    ],
+    [
+      "00:03 ; 12:43:16",
+      "Problem 2 - started making note (Solution time: 00:01)"
+    ],
+    [
+      "00:04 ; 12:43:17",
+      "Problem 2 completed (Self Doing: 00:01, Seeing Solution: 00:01, Making Note: 00:01, Total: 00:03)"
+    ],
+    [
+      "00:02 ; 12:43:19",
+      "Problem 3 - started self doing"
+    ],
+    [
+      "00:05 ; 12:43:22",
+      "Problem 3 - started seeing solution (Self work: 00:03)"
+    ],
+    [
+      "00:06 ; 12:43:24",
+      "Problem 3 - started making note (Solution time: 00:01)"
+    ],
+    [
+      "00:07 ; 12:43:25",
+      "Problem 3 completed (Self Doing: 00:03, Seeing Solution: 00:01, Making Note: 00:01, Total: 00:05)"
+    ],
+    [
+      "00:27 ; 12:43:54",
+      "Problem 4 - started self doing"
+    ],
+    [
+      "00:50 ; 12:44:18",
+      "Problem 4 - started seeing solution (Self work: 00:23)"
+    ],
+    [
+      "01:03 ; 12:44:32",
+      "Problem 4 - started making note (Solution time: 00:13)"
+    ],
+    [
+      "01:10 ; 12:44:39",
+      "Problem 4 completed (Self Doing: 00:23, Seeing Solution: 00:13, Making Note: 00:07, Total: 00:43)"
+    ],
+    [
+      "00:46 ; 12:45:27",
+      "Problem 5 - started self doing"
+    ],
+    [
+      "01:00 ; 12:45:41",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 1,
+  "current_problem_number": 5,
+  "problem_stages": {
+    "1": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 214,
+          "duration": 3
+        },
+        "SEEING_SOLUTION": {
+          "start": 217,
+          "duration": 1
+        },
+        "MAKING_NOTE": {
+          "start": 218,
+          "duration": 2
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 6,
+      "completed": true
+    },
+    "2": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 1,
+          "duration": 1
+        },
+        "SEEING_SOLUTION": {
+          "start": 2,
+          "duration": 1
+        },
+        "MAKING_NOTE": {
+          "start": 3,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 3,
+      "completed": true
+    },
+    "3": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 2,
+          "duration": 3
+        },
+        "SEEING_SOLUTION": {
+          "start": 5,
+          "duration": 1
+        },
+        "MAKING_NOTE": {
+          "start": 6,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 5,
+      "completed": true
+    },
+    "4": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 27,
+          "duration": 23
+        },
+        "SEEING_SOLUTION": {
+          "start": 50,
+          "duration": 13
+        },
+        "MAKING_NOTE": {
+          "start": 63,
+          "duration": 7
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "dfghjvbnmvbnm",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 43,
+      "completed": true
+    },
+    "5": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 46,
+          "duration": 0
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "sdfghfghjk",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 0,
+      "completed": false
+    }
+  }
+}

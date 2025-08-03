@@ -1,0 +1,25 @@
+{
+  "playlist": [
+    {
+      "path": "C:/Users/LENOVO/Downloads/SpotiDownloader.com - 3 DRAGS - vichaar.mp3",
+      "title": "3 DRAGS",
+      "artist": "vichaar",
+      "album": "3 DRAGS",
+      "duration": "2:47",
+      "genre": "Unknown",
+      "year": "2025"
+    },
+    {
+      "path": "C:/Users/LENOVO/Downloads/SpotiDownloader.com - Downers At Dusk - Talha Anjum.mp3",
+      "title": "Downers At Dusk",
+      "artist": "Talha Anjum/Umair",
+      "album": "Open Letter",
+      "duration": "4:16",
+      "genre": "Unknown",
+      "year": "2023"
+    }
+  ],
+  "volume": 0.16,
+  "repeat_mode": "track",
+  "shuffle": false
+}

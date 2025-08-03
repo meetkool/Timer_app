@@ -1,0 +1,128 @@
+{
+  "session_id": "20250803_050228",
+  "total_problems": 123,
+  "problems_solved": 3,
+  "stopwatch_time": 83,
+  "logs": [
+    [
+      "00:00 ; 05:02:38",
+      "Started"
+    ],
+    [
+      "00:01 ; 05:02:40",
+      "Problem 1 - started self doing"
+    ],
+    [
+      "00:03 ; 05:02:41",
+      "Problem 1 - started seeing solution (Self work: 00:02)"
+    ],
+    [
+      "00:04 ; 05:02:43",
+      "Problem 1 - started making note (Solution time: 00:01)"
+    ],
+    [
+      "00:05 ; 05:02:44",
+      "Problem 1 completed (Self Doing: 00:02, Seeing Solution: 00:01, Making Note: 00:01, Total: 00:04)"
+    ],
+    [
+      "00:01 ; 05:02:45",
+      "Problem 2 - started self doing"
+    ],
+    [
+      "00:02 ; 05:02:47",
+      "Problem 2 completed (Self Doing: 00:01, Total: 00:01)"
+    ],
+    [
+      "00:02 ; 05:02:49",
+      "Problem 3 - started self doing"
+    ],
+    [
+      "00:03 ; 05:02:50",
+      "Problem 3 completed (Self Doing: 00:01, Total: 00:01)"
+    ],
+    [
+      "00:17 ; 05:03:07",
+      "Problem 4 - started self doing"
+    ],
+    [
+      "01:01 ; 05:03:53",
+      "Stopped"
+    ],
+    [
+      "01:23 ; 12:18:52",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 1,
+  "current_problem_number": 4,
+  "problem_stages": {
+    "1": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 1,
+          "duration": 2
+        },
+        "SEEING_SOLUTION": {
+          "start": 3,
+          "duration": 1
+        },
+        "MAKING_NOTE": {
+          "start": 4,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 4,
+      "completed": true
+    },
+    "2": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 1,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 1,
+      "completed": true
+    },
+    "3": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 2,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 1,
+      "completed": true
+    },
+    "4": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 17,
+          "duration": 0
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 0,
+      "completed": false
+    }
+  }
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="805db032-c254-486c-aa0d-47a877ce2b7c" 
+           Name="Timer Application" 
+           Language="1033" 
+           Version="1.0.0" 
+           Manufacturer="Timer App Developer" 
+           UpgradeCode="b98fc3e7-af60-4625-9a21-a4be05c26f36">
+    
+    <Package InstallerVersion="200" 
+             Compressed="yes" 
+             InstallScope="perMachine" 
+             Description="Professional Timer Application for Problem Solving"
+             Comments="Timer Application Installer"
+             Manufacturer="Timer App Developer" />
+    
+    <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+    
+    <!-- Application Icon -->
+    <Icon Id="AppIcon" SourceFile="C:\Users\LENOVO\Desktop\cp50\timer\icon.ico" />
+    <Property Id="ARPPRODUCTICON" Value="AppIcon" />
+    
+    <!-- Installation Directory -->
+    <Feature Id="ProductFeature" Title="Timer Application" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+    
+    <!-- Directory Structure -->
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="Timer Application">
+          <!-- Main executable -->
+          <Component Id="MainExecutable" Guid="d7d0450b-2df1-4b13-9a85-a189f3f3c23d">
+            <File Id="TimerAppExe" 
+                  Source="C:\Users\LENOVO\Desktop\cp50\timer\dist\TimerApp_v1.0.0.exe" 
+                  KeyPath="yes" 
+                  Checksum="yes">
+              <Shortcut Id="StartMenuShortcut"
+                        Directory="ProgramMenuFolder"
+                        Name="Timer Application"
+                        Description="Professional Timer Application for Problem Solving"
+                        Icon="AppIcon"
+                        WorkingDirectory="INSTALLFOLDER" />
+              <Shortcut Id="DesktopShortcut"
+                        Directory="DesktopFolder"
+                        Name="Timer Application"
+                        Description="Professional Timer Application for Problem Solving"
+                        Icon="AppIcon"
+                        WorkingDirectory="INSTALLFOLDER" />
+            </File>
+          </Component>
+          
+          <!-- Sessions Directory -->
+          <Directory Id="SessionsDir" Name="sessions">
+            <Component Id="SessionsDirectory" Guid="d2d5b191-7d6b-4d58-9976-3f8d50edd2be">
+              <CreateFolder />
+            </Component>
+          </Directory>
+          
+          <!-- Storage Directory -->
+          <Directory Id="StorageDir" Name="storage">
+            <Component Id="StorageDirectory" Guid="ff0bf18f-f22e-4da1-a8a8-49ecf984dcc7">
+              <CreateFolder />
+            </Component>
+          </Directory>
+        </Directory>
+      </Directory>
+      
+      <!-- System Directories -->
+      <Directory Id="ProgramMenuFolder" />
+      <Directory Id="DesktopFolder" />
+    </Directory>
+    
+    <!-- Component Group -->
+    <ComponentGroup Id="ProductComponents">
+      <ComponentRef Id="MainExecutable" />
+      <ComponentRef Id="SessionsDirectory" />
+      <ComponentRef Id="StorageDirectory" />
+    </ComponentGroup>
+    
+    <!-- UI -->
+    <UIRef Id="WixUI_InstallDir" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    
+    <!-- License Agreement (optional) -->
+    <WixVariable Id="WixUILicenseRtf" Value="license.rtf" />
+    
+  </Product>
+</Wix>

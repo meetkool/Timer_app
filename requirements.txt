@@ -1,2 +1,5 @@
 Pillow>=10.0.0
 pyinstaller>=6.0.0
+pygame>=2.0.0
+mutagen>=1.45.0
+pywebview>=4.0.0

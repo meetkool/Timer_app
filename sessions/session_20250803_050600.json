@@ -1,0 +1,78 @@
+{
+  "session_id": "20250803_050600",
+  "total_problems": 12,
+  "problems_solved": 1,
+  "stopwatch_time": 195,
+  "logs": [
+    [
+      "00:00 ; 05:06:06",
+      "Started"
+    ],
+    [
+      "00:09 ; 05:06:16",
+      "Problem 1 - started self doing"
+    ],
+    [
+      "00:10 ; 05:06:17",
+      "Problem 1 - started seeing solution (Self work: 00:01)"
+    ],
+    [
+      "00:13 ; 05:06:20",
+      "Problem 1 - started making note (Solution time: 00:03)"
+    ],
+    [
+      "00:27 ; 05:06:34",
+      "Problem 1 completed (Self Doing: 00:01, Seeing Solution: 00:03, Making Note: 00:14, Total: 00:18)"
+    ],
+    [
+      "00:01 ; 05:06:36",
+      "Problem 2 - started self doing"
+    ],
+    [
+      "03:15 ; 05:09:54",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 1,
+  "current_problem_number": 2,
+  "problem_stages": {
+    "1": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 9,
+          "duration": 1
+        },
+        "SEEING_SOLUTION": {
+          "start": 10,
+          "duration": 3
+        },
+        "MAKING_NOTE": {
+          "start": 13,
+          "duration": 14
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 18,
+      "completed": true
+    },
+    "2": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 1,
+          "duration": 0
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 0,
+      "completed": false
+    }
+  }
+}

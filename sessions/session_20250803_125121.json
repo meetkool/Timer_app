@@ -1,0 +1,47 @@
+{
+  "session_id": "20250803_125121",
+  "total_problems": 12,
+  "problems_solved": 0,
+  "stopwatch_time": 311,
+  "logs": [
+    [
+      "00:00 ; 12:51:25",
+      "Started"
+    ],
+    [
+      "03:55 ; 12:55:25",
+      "Problem 1 - started self doing"
+    ],
+    [
+      "04:01 ; 12:55:31",
+      "Problem 1 - started seeing solution (Self work: 00:06)"
+    ],
+    [
+      "05:11 ; 12:56:42",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 2,
+  "current_problem_number": 1,
+  "problem_stages": {
+    "1": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 235,
+          "duration": 6
+        },
+        "SEEING_SOLUTION": {
+          "start": 241,
+          "duration": 0
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 0,
+      "completed": false
+    }
+  }
+}

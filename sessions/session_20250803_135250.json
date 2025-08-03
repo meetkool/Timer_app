@@ -1,0 +1,19 @@
+{
+  "session_id": "20250803_135250",
+  "total_problems": 123456,
+  "problems_solved": 0,
+  "stopwatch_time": 120,
+  "logs": [
+    [
+      "00:00 ; 13:52:58",
+      "Started"
+    ],
+    [
+      "02:00 ; 13:55:03",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 0,
+  "current_problem_number": 1,
+  "problem_stages": {}
+}

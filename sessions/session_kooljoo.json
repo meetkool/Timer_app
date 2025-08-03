@@ -1,0 +1,20 @@
+{
+  "session_id": "20250803_172049",
+  "custom_session_name": "kooljoo",
+  "total_problems": 12211,
+  "problems_solved": 0,
+  "stopwatch_time": 105,
+  "logs": [
+    [
+      "00:00 ; 17:21:08",
+      "Started"
+    ],
+    [
+      "01:45 ; 17:22:55",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 0,
+  "current_problem_number": 1,
+  "problem_stages": {}
+}

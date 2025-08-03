@@ -1,0 +1,7 @@
+Timer Application License Agreement
+
+This software is provided "as is" without warranty of any kind.
+
+You may use this software for personal and commercial purposes.
+
+Version: 1.0.0

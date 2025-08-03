@@ -1,0 +1,102 @@
+{
+  "session_id": "20250803_113717",
+  "total_problems": 2,
+  "problems_solved": 2,
+  "stopwatch_time": 213,
+  "logs": [
+    [
+      "00:00 ; 12:11:35",
+      "Started"
+    ],
+    [
+      "00:15 ; 12:11:51",
+      "Problem 1 - started self doing"
+    ],
+    [
+      "00:16 ; 12:11:52",
+      "Problem 1 - started seeing solution (Self work: 00:01)"
+    ],
+    [
+      "00:16 ; 12:11:52",
+      "Problem 1 - started making note (Solution time: 00:00)"
+    ],
+    [
+      "00:17 ; 12:11:53",
+      "Problem 1 completed (Self Doing: 00:01, Making Note: 00:01, Total: 00:02)"
+    ],
+    [
+      "00:02 ; 12:11:55",
+      "Problem 2 - started self doing"
+    ],
+    [
+      "00:02 ; 12:11:55",
+      "Problem 2 - started seeing solution (Self work: 00:00)"
+    ],
+    [
+      "00:03 ; 12:11:56",
+      "Problem 2 - started making note (Solution time: 00:01)"
+    ],
+    [
+      "00:04 ; 12:11:57",
+      "Problem 2 completed (Seeing Solution: 00:01, Making Note: 00:01, Total: 00:02)"
+    ],
+    [
+      "00:04 ; 12:11:57",
+      "All problems solved! Well done!"
+    ],
+    [
+      "03:33 ; 12:15:34",
+      "Stopped"
+    ]
+  ],
+  "current_problem_stage": 4,
+  "current_problem_number": 2,
+  "problem_stages": {
+    "1": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 15,
+          "duration": 1
+        },
+        "SEEING_SOLUTION": {
+          "start": 16,
+          "duration": 0
+        },
+        "MAKING_NOTE": {
+          "start": 16,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 2,
+      "completed": true
+    },
+    "2": {
+      "stage_times": {
+        "SELF_DOING": {
+          "start": 2,
+          "duration": 0
+        },
+        "SEEING_SOLUTION": {
+          "start": 2,
+          "duration": 1
+        },
+        "MAKING_NOTE": {
+          "start": 3,
+          "duration": 1
+        }
+      },
+      "stage_notes": {
+        "SELF_DOING": "",
+        "SEEING_SOLUTION": "",
+        "MAKING_NOTE": ""
+      },
+      "total_duration": 2,
+      "completed": true
+    }
+  }
+}
